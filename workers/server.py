@@ -23,6 +23,6 @@ else:
     parser.add_argument('--version', action='version', version='%(prog)s 0.95')
     args = parser.parse_args()
     try:
-        app.run(host='185.219.41.226', port=8080, debug=True)
+        app.run(host='localhost', port=8080, debug=True)
     except KeyboardInterrupt:
         sys.exit()
