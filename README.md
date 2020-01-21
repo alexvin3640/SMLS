@@ -1,9 +1,9 @@
 
-##SMLS
+## SMLS
 
 Стегоанализ изображений с помощью CatboostClassfier и SPAM feature selection.
 
-###Запуск: 
+### Запуск: 
 
 1) pip3 install -r requirements.txt
 
@@ -14,7 +14,7 @@
 4) python3 -m workers.server
 
 
-###Использование:
+### Использование:
 
 1) переход на localhost:8080
 
