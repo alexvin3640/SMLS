@@ -1,22 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>ML steganalysis</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-</head>
-</head>
-<body>
-<div class="container">
-	<h2 class="jumbotron text-muted text-center">Simple image steganalysis</h2>
-    <form action="" method="post" enctype="multipart/form-data">
-        <div class="form-group text-center">
-			<label for="file" class="text-center">Send your <b>.png</b> file:</label>
-	    	<input type="file" name="file">
-	    </div>
-	    <button type="submit" class="btn btn-primary btn-block btn-lg">Upload</button>
-    </form>
-</div>
-</body>
-</html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Простой стегоанализ</title>
+	
+	<style type="text/css">
+		a,
+		a:focus,
+		a:hover {
+		  color: #fff;
+		}
+
+		.btn-secondary,
+		.btn-secondary:hover,
+		.btn-secondary:focus {
+		  color: #333;
+		  text-shadow: none; /* Prevent inheritance from `body` */
+		  background-color: #fff;
+		  border: .05rem solid #fff;
+		}
+
+		html,
+		body {
+		  height: 100%;
+		  background-color: #333;
+		}
+
+		body {
+		  display: -ms-flexbox;
+		  display: -webkit-box;
+		  display: flex;
+		  -ms-flex-pack: center;
+		  -webkit-box-pack: center;
+		  justify-content: center;
+		  color: #fff;
+		  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+		  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+		}
+
+		.cover-container {
+		  max-width: 42em;
+		}
+
+		.masthead {
+		  margin-bottom: 2rem;
+		}
+
+		.masthead-brand {
+		  margin-bottom: 0;
+		}
+
+		.nav-masthead .nav-link {
+		  padding: .25rem 0;
+		  font-weight: 700;
+		  color: rgba(255, 255, 255, .5);
+		  background-color: transparent;
+		  border-bottom: .25rem solid transparent;
+		}
+
+		.nav-masthead .nav-link:hover,
+		.nav-masthead .nav-link:focus {
+		  border-bottom-color: rgb(0, 0, 0);
+		}
+
+		.nav-masthead .nav-link + .nav-link {
+		  margin-left: 1rem;
+		}
+
+		.nav-masthead .active {
+		  color: #fff;
+		  border-bottom-color: #fff;
+		}
+
+		@media (min-width: 48em) {
+		  .masthead-brand {
+			float: left;
+		  }
+		  .nav-masthead {
+			float: right;
+		  }
+		}
+
+		.cover {
+		  padding: 0 1.5rem;
+		}
+		.cover .btn-lg {
+		  padding: .75rem 1.25rem;
+		  font-weight: 700;
+		}
+
+		.mastfoot {
+		  color: rgb(0, 0, 0);
+		}
+	</style>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+      </header>
+
+      <main role="main" class="inner cover">
+          <h1 class="cover-heading">Простой стегоанализ для изображений</h1>
+          <p class="lead">    </p>
+          <form action="" method="post" enctype="multipart/form-data">
+              <div class="form-group text-center">
+                  <label for="file" class="lead">Загрузите ваш файл формата <b>.png</b>:</label>
+                  <input type="file" name="file">
+              </div>
+              <button type="submit" class="btn btn-lg btn-secondary">Загрузить</button>
+          </form>
+          <p class="lead">    </p>
+          <p>Это классификатор, работающий с применением машинного обучения.</p>
+          <p><a href="https://www.dropbox.com/sh/c1oanise94xf5yq/AACT8eb9QhYGnirBTK2Qk5RHa?dl=0">Здесь </a>примеры изображений для загрузки.</p>
+      </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Ссылка на <a href="https://github.com/alexvin3640/SMLS">GitHub</a></p>
+            </div>
+        </footer>
+    </div>
+
+</body></html>
