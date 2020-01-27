@@ -21,3 +21,14 @@
 2) загрузить .png файл (есть в папке examples)
 
 3) произойдет перенаправление на страницу с результатом
+
+
+### Самостоятельное обучение модели
+
+1) wget https://www.dropbox.com/s/jha7kf0lrwde31u/train.zip
+
+2) распаковать архив в папку mlbuild
+
+3) python3 -m mlbuild.build
+
+4) результат - файл mlbuild/catboost.obj
