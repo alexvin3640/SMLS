@@ -1,6 +1,6 @@
 catboost==0.20.1
 scikit_image==0.16.2
-Werkzeug==0.16.0
+Werkzeug==2.2.3
 pandas==0.25.3
 numpy==1.18.1
 redis==3.3.11
