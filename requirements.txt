@@ -3,7 +3,7 @@ scikit_image==0.16.2
 Werkzeug==0.16.0
 pandas==0.25.3
 numpy==1.18.1
-redis==3.3.11
+redis==4.4.4
 Flask==1.1.1
 pika==1.1.0
 scikit_learn==0.22.1
