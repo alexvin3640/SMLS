@@ -4,6 +4,6 @@ Werkzeug==0.16.0
 pandas==0.25.3
 numpy==1.18.1
 redis==3.3.11
-Flask==1.1.1
+Flask==2.3.2
 pika==1.1.0
 scikit_learn==0.22.1
